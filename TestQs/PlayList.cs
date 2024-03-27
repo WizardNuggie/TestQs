@@ -23,7 +23,7 @@ namespace TestQs
         {
             this.songs = songs;
         }
-        public void AddSong(Song s)
+        public void AddSongs(Song s)
         {
             int index = 0;
             foreach (Song song in this.songs)

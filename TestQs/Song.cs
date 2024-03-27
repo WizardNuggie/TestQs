@@ -23,9 +23,9 @@ namespace TestQs
         }
         public string LengthCatagory()
         {
-            if (this.length <= 120)
+            if (this.length <= 120)//**
                 return "short";
-            if (this.length > 240)
+            if (this.length > 240)//**
                 return "long";
             return "avarage";
         }
